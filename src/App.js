@@ -11,7 +11,7 @@ import Grid from 'semantic-ui-react/dist/commonjs/collections/Grid';
 
 import Visibility from 'semantic-ui-react/dist/commonjs/behaviors/Visibility';
 
-import me from './img_2.jpg';
+import me from './img_2.min.jpg';
 
 export default class HomepageLayout extends Component {
   render() {
