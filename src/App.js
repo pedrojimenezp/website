@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import {
-  Container,
-  Divider,
-  Grid,
-  Header,
-  Image,
-  Menu,
-  Segment,
-  Visibility
-} from 'semantic-ui-react';
+
+import Container from 'semantic-ui-react/dist/commonjs/elements/Container';
+import Image from 'semantic-ui-react/dist/commonjs/elements/Image';
+import Divider from 'semantic-ui-react/dist/commonjs/elements/Divider';
+import Header from 'semantic-ui-react/dist/commonjs/elements/Header';
+import Segment from 'semantic-ui-react/dist/commonjs/elements/Segment';
+
+import Menu from 'semantic-ui-react/dist/commonjs/collections/Menu';
+import Grid from 'semantic-ui-react/dist/commonjs/collections/Grid';
+
+import Visibility from 'semantic-ui-react/dist/commonjs/behaviors/Visibility';
 
 import me from './img_2.jpg';
 
