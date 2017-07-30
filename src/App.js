@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import {
-  Button,
   Container,
   Divider,
   Grid,
   Header,
-  Icon,
   Image,
-  List,
   Menu,
   Segment,
   Visibility
@@ -16,8 +13,6 @@ import {
 import me from './img_2.jpg';
 
 export default class HomepageLayout extends Component {
-  state = {};
-
   render() {
     return (
       <div>
