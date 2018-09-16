@@ -15,22 +15,102 @@
   <!-- Standard Meta -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
   <link rel="shortcut icon" type="image/ico" href="/static/img/favicon.ico" />
+
   <title>Pedro Jimenez</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link rel="stylesheet" href="/static/css/index.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7"
-    crossorigin="anonymous">
+  <link rel="canonical" href="https://pedrojimenezp.com" />
+
+
+  <style>
+    html {
+      padding: 0;
+      margin: 0;
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: #fafafa;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .header em {
+      font-size: 16px;
+    }
+
+    .header img {
+      border-radius: 20px;
+
+      border: 1px solid #ccc;
+
+      width: 200px;
+      height: 285px;
+
+      box-shadow: 0px 0 5px #ccc;
+    }
+
+    .container {
+      margin: auto;
+      max-width: 600px;
+      padding: 0 20px;
+    }
+
+    ul.experience {
+      font-family: monospace;
+    }
+
+    ul.experience>li {
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    ul.experience>li>ul>li {
+      font-weight: 500;
+    }
+
+    li>em {
+      font-size: 12px;
+    }
+
+    .social-networks {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .social-networks a svg {
+      color: #026aa7;
+      font-size: 28px;
+    }
+
+    .social-networks a:visited svg {
+      color: #026aa7;
+    }
+
+    footer {
+      margin-top: 20px;
+      padding: 20px;
+      text-align: center;
+      font-family: monospace;
+      font-size: 12px;
+    }
+  </style>
 </head>
 
 <body>
   <header class="header">
     <h1>Pedro Jimenez </h1>
-    <img src="/static/img/profile-min.jpg">
+    <img src="/static/img/profile-min-2.jpg" alt="Pedro Jimenez's photo">
     <h2 styles=""><em>Full Stack Developer</em></h2>
   </header>
 
@@ -151,6 +231,20 @@
       </a>
     </div>
     <footer>© 2017 pedrojimenezp.com all rights reserved</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Lato']
+        }
+      });
+    </script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/brands.js" integrity="sha384-2vdvXGQdnt+ze3ylY5ESeZ9TOxwxlOsldUzQBwtjvRpen1FwDT767SqyVbYrltjb"
+      crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/fontawesome.js" integrity="sha384-2OfHGv4zQZxcNK+oL8TR9pA+ADXtUODqGpIRy1zOgioC4X3+2vbOAp5Qv7uHM4Z8"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
